@@ -8,7 +8,7 @@ Systemet er skrevet — men det er skrevet i hast, og ingen har ryddet op i det 
 
 ## Kom i gang
 
-1. Klik **Use this template** øverst på dette repo på GitHub, og opret dit eget repo.
+1. Klik **Use this template** - den grønne knap øverst i højre hjørne, og opret dit eget repo. 
 
 2. Klon dit nye repo ned på din maskine:
    ```
@@ -28,8 +28,7 @@ Systemet er skrevet — men det er skrevet i hast, og ingen har ryddet op i det 
    dotnet run
    ```
 
-5. Se hvad programmet printer i terminalen, **før du ændrer noget** — det er Egons sag,
-   spillet igennem fra indlevering til afhentning.
+5. Se hvad programmet printer i terminalen, **før du ændrer noget** — det er Egons sag, spillet igennem fra indlevering til afhentning.
 
 ## Reglen: adfærden må ikke ændre sig
 
@@ -40,7 +39,7 @@ refaktorering.
 
 ## Sådan arbejder vi
 
-### Fase 1 — Find code smells (to og to)
+### Fase 1 — Find code smells
 
 Læs `PeterPedal/Program.cs`. I skal **ikke** rette noget endnu — kun læse og skrive ned.
 
@@ -51,15 +50,12 @@ Lav en liste med, for hver smell I ser:
 
 Der er **13 forskellige code smells** i koden (derudover er der også nogle C#-konventionsbrud i navngivning og formatering — de skal også på listen). Bemærk at den samme smell godt kan optræde flere steder i koden.
 
-### Fase 2 — Refaktorér (individuelt)
+### Fase 2 — Refaktorér 
 
-Nu arbejder I hver for sig i jeres eget repo (dem I oprettede under "Kom i gang").
-
-1. Opret et issue for hvert fund fra jeres fælles liste (se konvention nedenfor)
+1. Opret et issue for hvert fund fra listen over liste (se konvention nedenfor)
 2. Opret en branch, ret én ting ad gangen, commit med conventional commits
-3. `git push`
 
-I skal **ikke** åbne eller merge en pull request i dag — det er næste uges stof. Jeres
+I skal **ikke** pushe, åbne eller merge en pull request i dag — det er næste uges stof. Jeres
 branches og commits skal bare stå klar i jeres repo.
 
 ### Issue-konvention
@@ -73,17 +69,17 @@ branches og commits skal bare stå klar i jeres repo.
 ### Commit-konvention
 
 Følg conventional commits, som vi gennemgik i dag:
-
+```
 <type>[optional scope]: <description>
 
 [optional body]
 
 [optional footer(s)]
+```
 
 
 ## Ekstraopgave
 
-1. **Udskil klasserne i hver sin fil.** Lige nu ligger alt i `Program.cs`. Når koden er
-   ryddet op, er det tydeligt hvad der hører sammen.
-2. **Tilføj en rabat:** Peter vil give 20 % rabat på reservedele til faste kunder. Læg
-   mærke til: hvor mange steder i koden skal du rette, for at det virker overalt?
+1. **Udskil klasserne i hver sin fil.** Lige nu ligger alt i `Program.cs`. Når koden er clean kan du dele ansvar ud. 
+
+2. **Tilføj en rabat:** Peter vil give 20 % rabat på reservedele til faste kunder. Læg mærke til: hvor mange steder i koden skal du rette, for at det virker overalt?
