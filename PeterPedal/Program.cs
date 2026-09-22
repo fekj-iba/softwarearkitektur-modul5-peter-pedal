@@ -258,7 +258,7 @@ class Program
     {
         var service = new repairService();
 
-        service.CreateCase("Egon", "Hansen", "20123456", "STL-4471", "The gears are not shifting properly and the bike is almost impossible to ride.");
+        service.CreateCase("Egon", "Cykelmyggen", "20123456", "STL-4471", "The gears are not shifting properly and the bike is almost impossible to ride.");
         service.registerFindings("STL-4471", new List<string> { "Gear cable needs replacement", "Sprocket is worn", "Brake pads are worn" });
         service.LookUpParts("STL-4471");
         service.CalculateOffer("STL-4471");
