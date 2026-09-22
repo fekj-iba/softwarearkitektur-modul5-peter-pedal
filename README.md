@@ -78,7 +78,7 @@ Følg conventional commits, som vi gennemgik i dag:
 ```
 
 
-## Ekstraopgave
+## Ekstraopgave (ikke obligatorisk)
 
 1. **Udskil klasserne i hver sin fil.** Lige nu ligger alt i `Program.cs`. Når koden er clean kan du dele ansvar ud. 
 
