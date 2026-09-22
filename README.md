@@ -37,9 +37,9 @@ Der er ingen tests i denne øvelse. Jeres sikkerhedsnet er, at `dotnet run` skal
 Ændrer outputtet sig, har I ændret noget mere end strukturen — og det er ikke længere en
 refaktorering.
 
-## Sådan arbejder vi
+## Opgave
 
-### Fase 1 — Find code smells
+### Del 1 — Find code smells
 
 Læs `PeterPedal/Program.cs`. I skal **ikke** rette noget endnu — kun læse og skrive ned.
 
@@ -50,7 +50,7 @@ Lav en liste med, for hver smell I ser:
 
 Der er **13 forskellige code smells** i koden (derudover er der også nogle C#-konventionsbrud i navngivning og formatering — de skal også på listen). Bemærk at den samme smell godt kan optræde flere steder i koden.
 
-### Fase 2 — Refaktorér 
+### Del 2 — Refaktorér 
 
 1. Opret et issue for hvert fund fra listen over liste (se konvention nedenfor)
 2. Opret en branch, ret én ting ad gangen, commit med conventional commits
