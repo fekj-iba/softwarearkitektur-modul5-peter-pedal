@@ -55,7 +55,7 @@ Der er **13 forskellige code smells** i koden (derudover er der også nogle C#-k
 1. Opret et issue for hvert fund fra listen over liste (se konvention nedenfor)
 2. Opret en branch, ret én ting ad gangen, commit med conventional commits
 
-I skal **ikke** pushe, åbne eller merge en pull request i dag — det er næste uges stof. Jeres
+I skal **ikke** åbne eller merge en pull request — det er næste uges stof. Jeres
 branches og commits skal bare stå klar i jeres repo.
 
 ### Issue-konvention
